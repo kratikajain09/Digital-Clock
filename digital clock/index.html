@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="/digital clock/style.css">
+    <!-- <link rel="stylesheet" href="/digital clock/script.js"> -->
+</head>
+
+<body>
+
+    <div class="main-body">
+        <div class="heading">
+            DIGITAL CLOCK
+        </div>
+        <div class="container">
+            <div class="clock">
+                <span class="hrs">00</span>
+                <span>:</span>
+                <span class="min">00</span>
+                <span>:</span>
+                <span class="sec">00</span>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/digital clock/script.js"></script>
+    <!-- <script>
+        let hrs = document.querySelector('.hrs');
+        let min = document.querySelector('.min');
+        let sec = document.querySelector('.sec');
+        let ticking = function () {
+            let currentdate = new Date();
+            let hour = currentdate.getHours();
+            let mins = currentdate.getMinutes();
+            let secs = currentdate.getSeconds();
+
+            hrs.textContent = hour;
+            min.textContent = mins;
+            sec.textContent = secs;
+        }
+        setInterval(ticking, 1000);
+    </script> -->
+</body>
+
+</html>
